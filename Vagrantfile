@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "DJenkinsDev/VagrantPHP"
-  config.vm.box_version = "0.1.0"
+  config.vm.box_version = "0.2.0"
   config.vm.box_check_update = true
 
   # Port Forwarding for:
