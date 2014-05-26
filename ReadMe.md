@@ -13,28 +13,28 @@ Now all that is left is to put your projects in the `sites` directory and code t
 
 ### MySQL
 
-IP: localhost/127.0.0.1
+IP: `localhost/127.0.0.1`
 
-Port: 33060 (This is forwarded to our VM's 3306 port)
+Port: `33060 (This is forwarded to our VM's 3306 port)`
 
-Username: root
+Username: `root`
 
-Password: password
+Password: `password`
 
 
 ### MongoDB
 
-IP: localhost/127.0.0.1
+IP: `localhost/127.0.0.1`
 
-Port: 20017 (This is forwarded to our VM's 27017 port)
+Port: `20017 (This is forwarded to our VM's 27017 port)`
 
-Username: root
+Username: `root`
 
-Password: password
+Password: `password`
 
 
 ### Redis
 
-IP: localhost/127.0.0.1
+IP: `localhost/127.0.0.1`
 
-Port: 63790 (This is forwarded to our VM's 6379 port)
+Port: `63790 (This is forwarded to our VM's 6379 port)`
