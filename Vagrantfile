@@ -8,6 +8,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box_version = "0.2.0"
   config.vm.box_check_update = true
 
+  config.vm.synced_folder ".", "/vagrant", :mount_options => ["dmode=777","fmode=666"]
+
   # Port Forwarding for:
   ## NginX
   config.vm.network "forwarded_port", guest: 80, host: 8080
