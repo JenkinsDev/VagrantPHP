@@ -19,4 +19,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 27017, host: 20017
   ## Redis
   config.vm.network "forwarded_port", guest: 6379, host: 63790
+  
+  # Allow more memory and fix this problem : http://askubuntu.com/questions/238040/how-do-i-fix-name-service-for-vagrant-client
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 1024
+    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
+  end
 end
