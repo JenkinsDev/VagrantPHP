@@ -1,6 +1,6 @@
 # VagrantPHP
 
-Want to help keep the Vagrant box on DigitalOcean for download?  Consider donating a measely dollar: (Donate BitCoins)[https://www.coinbase.com/checkouts/063b9abdd95de3182b0239fae774c0ae]
+Want to help keep the Vagrant box on DigitalOcean for download?  Consider donating a measely dollar: [Donate BitCoins](https://www.coinbase.com/checkouts/063b9abdd95de3182b0239fae774c0ae)
 
 Simple to use Vagrant virtual host setup for you to handle of your PHP 5.5 development. All that you have to do to get started is run the started command:
 
