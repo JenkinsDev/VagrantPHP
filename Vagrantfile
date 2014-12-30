@@ -7,6 +7,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "DJenkinsDev/VagrantPHP"
   config.vm.box_version = "0.5.0"
   config.vm.box_check_update = true
+  config.vm.box_download_insecure = true
 
   config.vm.synced_folder ".", "/vagrant", :mount_options => ["dmode=777","fmode=666"]
 
